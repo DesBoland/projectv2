@@ -163,7 +163,10 @@ width: 1000px;
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 640px) {
+#mainDiv{
+width:95%;
 
+}
 	header {
 
 		position: absolute;
@@ -206,3 +209,9 @@ width: 1000px;
 		display: block;
 
 	}
+	
+	#map-canvas {
+        width: 400px;
+        height: 200px;
+		margin: 0 auto;
+      }
